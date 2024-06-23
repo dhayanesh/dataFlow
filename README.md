@@ -1,25 +1,12 @@
 ***********************************Diabetes Readmission Predictor***********************************
 
+Screenshots:
+![dataFlow1](https://github.com/dhayanesh/dataFlow/assets/63561465/da54da4d-70ad-4622-a32e-77d4c9153295)
+![dataFlow2](https://github.com/dhayanesh/dataFlow/assets/63561465/eaa3450d-d3ba-4177-bdac-a58623d24a93)
+![dataFlow3](https://github.com/dhayanesh/dataFlow/assets/63561465/7206aff9-c1ff-4af0-ac9e-7547899222a1)
+
 Running Web-application in local requirements:
 To use the web-app, you'll need be needing Python 3.8 or higher and the following libraries: streamlit, pandas, numpy, matplotlib, scikit-learn (with modules: preprocessing, ensemble, impute, metrics, model_selection, linear_model), imblearn, xgboost, and seaborn.
-
-* streamlit - Used for creating data web applications
-* pandas - Used for data manipulation and analysis
-* numpy - Used for various numerical operations
-* matplotlib - Used for creating static, and interactive visualizations with data
-* sklearn.preprocessing - Used for StandardScaler and LabelEncoder in data preprocessing
-* sklearn.impute - Used for KNNImputer in handling missing data
-* sklearn.metrics - Used for evaluating the model performance
-* sklearn.model_selection - Used for train_test_split in splitting the data into training and test sets.
-* sklearn.linear_model - Used in classification tasks
-* sklearn.ensemble - Used for RandomForestClassifier, AdaBoostClassifier
-* sklearn.tree - Used for DecisionTreeClassifier 
-* sklearn.naive_bayes - Used for Naive Bayes model
-* skleanrn.model_selection - Used for GridSearch in fine-tuning
-* seaborn - Used for statistical data visualization
-* xgboost - Used for XGBoost model
-* imblearn - Used for performing SMOTE
-
 
 Pip Installations:
 * pip install streamlit
